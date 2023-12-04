@@ -1,5 +1,6 @@
 # Diffusion_u_net
 Paper link: https://proceedings.mlr.press/v143/turja21a.html
+
 The excessive deposition of misfolded proteins such as amyloid-$\beta$~(A$\beta$) protein is an aging event underlying several neurodegenerative diseases. Mounting evidence shows that the spreading of neuropathological burden has a strong association to the white matter tracts in the brain which can be measured using diffusion-weighted imaging and tractography technologies. Most of the previous studies analyze the dynamic progression of amyloid using cross-sectional data which is not robust to the heterogeneous A$\beta$ dynamics across the population. In this regard, we propose a graph neural network-based learning framework to capture the disease-related dynamics by tracking the spreading of amyloid across brain networks from the subject-specific longitudinal PET images. To learn from limited (2 – 3 timestamps) and noisy longitudinal data, we restrict the space of amyloid propagation patterns to a latent heat diffusion model which is constrained by the anatomical connectivity of the brain. Our experiments show that restricting the dynamics to be a heat diffusion mechanism helps to train a robust deep neural network for predicting future time points and classifying Alzheimer's disease brain.
 
 # Installation
